@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trial</title>
+  <title>Beautiful Images</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .image-container {
+      flex: 1 1 50%;
+      padding: 5px;
+      box-sizing: border-box;
+      max-width: 400px; /* Adjust the maximum width as needed */
+    }
+    img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
-
-<style type="text/css">
-  p.p1 {
-    margin: 0.0px 0.0px 0.0px 0.0px;
-    font: 12.0px Helvetica
-  }
-
-  p.p2 {
-    margin: 0.0px 0.0px 0.0px 0.0px;
-    font: 12.0px Helvetica;
-    min-height: 14.0px
-  }
-</style>
-
 <body>
 
-  <div style="flex: 50%; padding: 5px;">
-
-    <img src="gdp_time_series.png" alt="Image 1" style="width: 100%;">
-
+  <div class="image-container">
+    <img src="gdp_time_series.png" alt="GDP Time Series">
   </div>
 
-  <div style="flex: 50%; padding: 5px;">
-
-    <img src="inflation_vs_military_scatter.png" alt="Image 2" style="width: 100%;">
-
+  <div class="image-container">
+    <img src="inflation_vs_military_scatter.png" alt="Inflation vs Military Scatter">
   </div>
 
-  <div style="flex: 50%; padding: 5px;">
-
-    <img src="life_expectancy_bar_chart.png" alt="Image 3" style="width: 100%;">
-
+  <div class="image-container">
+    <img src="life_expectancy_bar_chart.png" alt="Life Expectancy Bar Chart">
   </div>
 
-  <div style="flex: 50%; padding: 5px;">
-
-    <img src="world_map.png" alt="Image 4" style="width: 100%;">
-
+  <div class="image-container">
+    <img src="world_map.png" alt="World Map">
   </div>
 
 </body>
-
 </html>
+ ̰
