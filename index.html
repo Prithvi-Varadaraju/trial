@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beautiful Images</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
+      margin: auto;
+      max-width: 800px;
       padding: 0;
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px;
     }
     .image-container {
-      flex: 1 1 50%;
+      width: 100%;
       padding: 5px;
       box-sizing: border-box;
-      max-width: 400px;
     }
     img {
       width: 100%;
@@ -29,18 +33,32 @@
 <body>
 
   <div class="image-container">
+    <h2>GDP Time Series</h2>
+    <p>This is a time series of all the countries.</p>
     <img src="gdp_time_series.png" alt="GDP Time Series">
   </div>
 
   <div class="image-container">
+    <h2>Inflation Vs Military Scatter Plot</h2>
+    <p>
+      <!-- add stuff -->
+    </p>
     <img src="inflation_vs_military_scatter.png" alt="Inflation vs Military Scatter">
   </div>
 
   <div class="image-container">
+    <h2>Life Expectancy Bar Chart</h2>
+    <p>
+      <!-- add stuff -->
+    </p>
     <img src="life_expectancy_bar_chart.png" alt="Life Expectancy Bar Chart">
   </div>
 
   <div class="image-container">
+    <h2>World Map</h2>
+    <p>
+      <!-- add stuff -->
+    </p>
     <img src="world_map.png" alt="World Map">
   </div>
 
